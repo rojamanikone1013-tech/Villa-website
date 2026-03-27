@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VILLA </title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+      #menu-toggle {
+  display: none;
+}
+
+/* Default (Laptop) */
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+/* Menu icon hide by default */
+.menu-icon {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: white;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 200px;
+    padding: 15px;
+  }
+
+  /* When checkbox checked → show menu */
+  #menu-toggle:checked + .menu-icon + .nav-links {
+    display: flex;
+  }
+}
+    </style>
+</head>
+<body>
+     <header>
+          <div class="logo">
+           <a href="#"><img src="../images/email-icon.png">  info@company.com</a>
+           <a href="#"><img src="../images/email-icon.png">Sunny Isles Beach,FL 33160</a>
+          </div>
+          <div class="navbar">
+          <h1>VILLA</h1>
+          <input type="checkbox" id="menu-toggle">
+          <label for="menu-toggle" class="menu-icon">☰</label>
+          <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="properties.html">Properties</a>
+          <a href="properties details.html">Property Details</a>
+          <a href="contact.html">Contact Us</a>
+          <a href="#" class="btn">Schedule a visit</a>
+          </div>
+          </div>
+    </header>
+    <div class="img-box">
+          <img src="../images/banner-01.jpg">
+        <div class="location">
+           Toronto, <span class="canada">Canada</span>
+        </div>
+        <div class="text">
+          <h1>HURRY!</h1>
+         <h2>GET THE BEST </h2>
+         <h2>VILLA FOR YOU</h2>
+       </div>
+    </div>
+
+    <section>
+    <div class="feature">
+        <img src="../images/featured.jpg">
+        <img class="icon" src="../images/featured-icon.png">
+    </div>
+    <div class="feature-top">
+     <h4> | FEATURED </h4><br><br>
+     <h1><b>Best Appartment<br> & Sea view</b></h1>
+     </div>
+      <div class="faq">
+     <details>
+     <summary>Best useful links ?</summary>
+     <p>
+     Get the best villa website template in HTML CSS and Bootstrap for your business.
+     XYZ provides you the best service in the world.
+     </p>
+     </details>
+
+     <details>
+     <summary>How does this work ?</summary>
+     <p>
+      This website helps you find the best apartment and sea view villas easily.
+     </p>
+     </details>
+
+     <details>
+     <summary>Why is Villa Agency the best ?</summary>
+     <p>
+     Villa Agency provides high quality service and trusted property deals.
+     </p>
+     </details>
+  </div>
+  <div class="card-box">
+    <div class="card-item">
+    <img src="../images/info-icon-01.png">
+    <div>
+        <h3>250 m2</h3>
+      <p>Total Flat Space</p>
+    </div>
+    </div>
+    <div class="card-item">
+    <img src="../images/info-icon-02.png">
+     <div>
+        <h3>Contract</h3>
+      <p>Contract Ready</p>
+    </div>
+    </div>
+    <div class="card-item">
+    <img src="../images/info-icon-03.png">
+     <div>
+       <h3>Payment</h3>
+      <p>Payment process</p>
+    </div>
+    </div>
+    <div class="card-item">
+    <img src="../images/info-icon-04.png">
+     <div>
+       <h3>Safety</h3>
+      <p>24/7 Under Control</p>
+    </div>
+    </div>
+</div>
+</section>
+
+<div>
+    <img class="bg" src="../images/video-bg.jpg">
+<div class="view">
+     <h5> | VIDEO VIEW </h5><br>
+     <h2>Get Closer View & <br> Different Felling</h2>
+</div>
+    <img class="frame" src="../images/video-frame.jpg">
+    <div class="button"></div>
+</div>
+<div class="stats-cards">
+
+  <div class="card-one">
+    <div class="circle"></div>
+    <h1>34</h1>
+    <p>Buildings <br> Finished Now</p>
+  </div>
+
+  <div class="card-one">
+    <div class="circle"></div>
+    <h1>12</h1>
+    <p>Years <br> Experience</p>
+  </div>
+
+  <div class="card-one">
+    <div class="circle"></div>
+    <h1>24</h1>
+    <p>Awards <br> Won 2023</p>
+  </div>
+
+</div>
+<br><br><br>
+
+ <section class="deal">
+
+<div class="deal-header">
+
+<div class="deal-title">
+<p class="small">| BEST DEAL</p><br><br>
+<h1>Find Your Best Deal <br> Right Now!</h1>
+</div>
+
+<div class="deal-buttons">
+<button class="active">Appartment</button>
+<button>Villa House</button>
+<button>Penthouse</button>
+</div>
+</div>
+<div class="deal-container">
+
+<div class="info-card">
+
+<div class="info-row">
+<span>Total Flat Space</span>
+<b>185 m2</b>
+</div>
+
+<div class="info-row">
+<span>Floor number</span>
+<b>26th</b>
+</div>
+
+<div class="info-row">
+<span>Number of rooms</span>
+<b>4</b>
+</div>
+
+<div class="info-row">
+<span>Parking Available</span>
+<b>Yes</b>
+</div>
+
+<div class="info-row">
+<span>Payment Process</span>
+<b>Bank</b>
+</div>
+
+</div>
+
+
+<div class="deal-image">
+<img src="../images/deal-01.jpg">
+</div>
+
+<div class="deal-text">
+<h3>Extra Info About Property</h3>
+
+<p>
+Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit,<br>
+do eiusmod tempor pack incididunt ut<br> labore et dolore magna ipsum suspendisse.
+</p>
+
+<p>
+When you need best websites, you can <br>simply type XYZ in any
+search engine website.<br> in addition, you can type XYZ portfolio,<br> XYZ one page layouts,etc.
+</p>
+<br>
+<button class="visit-btn">Schedule a visit</button>
+</div>
+</div>
+</section>
+<br><br><br><br><br><br>
+
+
+<div class="properties">
+<h4 class="titles">| PROPERTIES</h4>
+<h1 class="title">We Provide The Best <br> Property You Like</h1>
+
+<div class="cards">
+
+<div class="card">
+<img src="../images/property-01.jpg">
+
+<div class="top">
+<button class="tag">Luxury Villa</button>
+<p class="price">$2.264.000</p>
+</div>
+
+<h3>18 New Street Miami, OR 97219</h3>
+
+<div class="details">
+<p>Bedrooms: 8</p>
+<p>Bathrooms: 8</p>
+<p>Area: 545m2</p>
+<p>Floor: 3</p>
+<p>Parking: 6 spots</p>
+</div>
+<hr style="color: #666;">
+<button class="card-buttons">Schedule a visit</button>
+</div>
+
+
+<div class="card">
+<img src="../images/property-02.jpg">
+
+<div class="top">
+<button class="tag">Luxury Villa</button>
+<p class="price">$1.180.000</p>
+</div>
+
+<h3>54 Mid Street Florida, OR 27001</h3>
+
+<div class="details">
+<p>Bedrooms: 6</p>
+<p>Bathrooms: 5</p>
+<p>Area: 450m2</p>
+<p>Floor: 3</p>
+<p>Parking: 8 spots</p>
+</div>
+<hr>
+<button class="card-buttons">Schedule a visit</button>
+</div>
+
+
+<div class="card">
+<img src="../images/property-03.jpg">
+
+<div class="top">
+<button class="tag">Luxury Villa</button>
+<p class="price">$1.460.000</p>
+</div>
+
+<h3>26 Old Street Miami, OR 38540</h3>
+
+<div class="details">
+<p>Bedrooms: 5</p>
+<p>Bathrooms: 4</p>
+<p>Area: 225m2</p>
+<p>Floor: 3</p>
+<p>Parking: 10 spots</p>
+</div>
+<hr>
+<button class="card-buttons">Schedule a visit</button>
+</div>
+
+
+<div class="card">
+<img src="../images/property-04.jpg">
+
+<div class="top">
+<button class="tag">Luxury Villa</button>
+<p class="price">$584.500</p>
+</div>
+
+<h3>12 New Street Miami, OR 12650</h3>
+
+<div class="details">
+<p>Bedrooms: 4</p>
+<p>Bathrooms: 3</p>
+<p>Area: 125m2</p>
+<p>Floor: 25th</p>
+<p>Parking: 2 cars</p>
+</div>
+<hr>
+<button class="card-buttons"> Schedule a visit</button>
+</div>
+
+
+<div class="card">
+<img src="../images/property-05.jpg">
+
+<div class="top">
+<button class="tag">Luxury Villa</button>
+<p class="price">$925.600</p>
+</div>
+
+<h3>34 Beach Street Miami, OR 42680</h3>
+
+<div class="details">
+<p>Bedrooms: 4</p>
+<p>Bathrooms: 4</p>
+<p>Area: 180m2</p>
+<p>Floor: 38th</p>
+<p>Parking: 2 cars</p>
+</div>
+<hr>
+<button class="card-buttons">Schedule a visit</button>
+</div>
+
+
+<div class="card">
+<img src="../images/property-06.jpg">
+
+<div class="top">
+<button class="tag">Luxury Villa</button>
+<p class="price">$450.000</p>
+</div>
+
+<h3>22 New Street Portland, OR 16540</h3>
+
+<div class="details">
+<p>Bedrooms: 3</p>
+<p>Bathrooms: 2</p>
+<p>Area: 165m2</p>
+<p>Floor: 26th</p>
+<p>Parking: 3 cars</p>
+</div>
+<hr>
+<button class="card-buttons">Schedule a visit</button>
+</div>
+</div>
+</div>
+<br><br><br><br><br><br><br>
+
+<!-------contact page--------->
+<div class="contact-bg">
+<img class="contact" src="../images/contact-bg.jpg">
+<div class="contact-text">
+<h3>| CONTACT US </h3>
+<br>
+<h1>Get In Touch With <br> Our Agents</h1>
+</div>
+</div>
+<div class="contact-container">
+
+<!-- Google Map -->
+<div class="map">
+<iframe
+src="https://www.google.com/maps?q=Hyderabad&output=embed"
+width="100%"
+height="400px"
+style="border:0;"
+allowfullscreen=""
+loading="lazy">
+</iframe>
+
+<div class="contact-cards">
+
+<div class="phone-card">
+   <img src="../images/phone-icon.png">
+<div>
+<h4>010-020-0340</h4>
+<p>Phone Number</p>
+</div>
+</div>
+
+<div class="email-card">
+   <img src="../images/email-icon.png">
+<div>
+<h4>info@villa.co</h4>
+<p>Business Email</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<!-- Contact Form -->
+<div class="contact-form">
+
+<label>Full Name</label>
+<input type="text" placeholder="Your Name...">
+
+<label>Email Address</label>
+<input type="email" placeholder="Your E-mail...">
+
+<label>Subject</label>
+<input type="text" placeholder="Subject...">
+
+<label>Message</label>
+<textarea placeholder="Your Message"></textarea>
+
+<button>Send Message</button>
+
+</div>
+</div>
+</div>
+
+<footer>
+   <p>Copyright © 2048 villa Agency Co., Ltd.All rights reserved.Design:Rojamani</p>
+</footer>
+</body>
+</html>
